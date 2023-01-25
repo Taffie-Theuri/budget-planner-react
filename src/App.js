@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from "./components/Budget";
+import Remaining from "./components/Remaining";
 
 
 function App() {
@@ -11,7 +12,12 @@ function App() {
   <div className="col-sm">
     <Budget/>
   </div>
+  <div className="col-sm">
+    <Remaining/>
+  </div>
 </div>
+
+
     </div>
   )
 }
