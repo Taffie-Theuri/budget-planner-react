@@ -4,8 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-
+    <div className="container">
+<h1 className="mt-3">MY Budget Planner</h1>
+<div className="row mt-3">
+  <div className="col-sm">
+    <Budget/>
+  </div>
+</div>
     </div>
   )
 }
