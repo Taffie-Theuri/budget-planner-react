@@ -11,8 +11,8 @@ function AddExpenseForm() {
 						type='text'
 						class='form-control'
 						id='name'
-						value={name}
-						onChange={(event) => setName(event.target.value)}
+						// value={name}
+						// onChange={(event) => setName(event.target.value)}
 					/>
 				</div>
 				<div class='col-sm col-lg-4'>
@@ -22,8 +22,8 @@ function AddExpenseForm() {
 						type='number'
 						class='form-control'
 						id='cost'
-						value={cost}
-						onChange={(event) => setCost(event.target.value)}
+						// value={cost}
+						// onChange={(event) => setCost(event.target.value)}
 					/>
 				</div>
 			</div>
