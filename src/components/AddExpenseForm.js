@@ -9,7 +9,7 @@ function AddExpenseForm(props) {
 
 	const onSubmit = (event) => {
 		event.preventDefault();
-		alert('name: ' + name + ' ' + 'cost: ' + cost)
+		console.log('name: ' + name + ' ' + 'cost: ' + cost)
 
 		const expense = {
 
