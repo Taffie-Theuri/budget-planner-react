@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import {TiDelete} from 'react-icons/ti';
 
-function ExpenseItem() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const ExpenseItem = (props) => {
+  return(
+    <li
+    className= 'list-group-item d-flex justify-content-between align-center'>
+        {props.name}
+        <div>
+          <span className = 'badge badge-primary badge-pill mr-3'>
+            Ksh{props.cost}
+            
+
+          </span>
+          <TiDelete size='2em'></TiDelete>
+        </div>
+        </li>
+  );
+};
+ 
 
 export default ExpenseItem

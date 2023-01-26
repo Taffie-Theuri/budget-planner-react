@@ -11,8 +11,8 @@ function App() {
   return (
     <AppProvider>
     <div className="container">
-<h1 className="mt-3">My Budget Planner</h1>
-<div className="row mt-3">
+<h1 className="mt-3"> Budget Planner App</h1>
+<div className="row mt-3 p-4">
   <div className="col-sm">
     <Budget/>
   </div>
@@ -26,7 +26,7 @@ function App() {
   </div>
 
   <h3 className="mt-3">Expenses</h3>
-  <div className='row '>
+  <div className='row mt-2'>
 					<div className='col-sm'>
 						<ExpenseList />
 					</div>
