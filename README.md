@@ -11,7 +11,7 @@ License: MIT License
 
 Repo Link: https://github.com/Taffie-Theuri/budget-planner-react 
 
-Live Link: https://mtd-butdget-planner.netlify.app/ 
+Live Link: https://mtd-budget-planner.netlify.app/ 
 
 # Description
 
