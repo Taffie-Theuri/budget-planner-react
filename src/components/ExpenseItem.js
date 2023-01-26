@@ -1,20 +1,29 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {TiDelete} from 'react-icons/ti';
+import { AppContext } from '../context/AppContext';
 
 const ExpenseItem = (props) => {
-  return(
-    <li
-    className= 'list-group-item d-flex justify-content-between align-center'>
-        {props.name}
-        <div>
-          <span className = 'badge badge-primary badge-pill mr-3'>
-            Ksh{props.cost}
-            
+  const {dispatch} = useContext(AppContext)
 
-          </span>
-          <TiDelete size='2em'></TiDelete>
-        </div>
-        </li>
+  const handleDeleteExpense = () => {
+    dispatch({
+      type: 'DELETE_EXPENSE',
+      payload: props.id
+    })
+  }
+  return(
+    <li className='bg-dark text-light list-group-item d-flex justify-content-between align-center'>
+      {props.name}
+      <div className='justify-content-center align-items-center'>
+        <span className=' mr-3'>
+          Ksh{props.cost}
+        </span>
+        {/* <TiDelete size='2em'></TiDelete> */}
+        <button className='btn btn-outline-info edit-button'>Edit</button>
+        <button className='btn btn-outline-info delete-button' onClick={handleDeleteExpense}>Delete</button>
+      </div>
+
+    </li>
   );
 };
  
