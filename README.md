@@ -1,71 +1,39 @@
-# Getting Started with Create React App
+# React Phase 2 Independent Project
+# Budget Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Group 3
+Authors:
+- Mercy Faith Nyambura Kariuki
+- Taffie Theuri
+- Davis Ngetich
 
-## Available Scripts
+License: MIT License
 
-In the project directory, you can run:
+Repo Link: https://github.com/Taffie-Theuri/budget-planner-react 
 
-### `npm start`
+Live Link: https://mtd-butdget-planner.netlify.app/ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This Phase 2 Project is part of the Moringa School Software Engineering Program where we will be creating a Budget Planner.  We will be using netlify.app to deploy the application.
 
-### `npm test`
+The library we’ll be using is React JS where we will utilize the different functionalities such as useEffect, useRef, and useState among others.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Project Guidelines
 
-### `npm run build`
+- You must make a single page application (only one index.html file) using create-react-app
+- Your app should use at least 5 components in a way that keeps your code well organized
+- There should be at least 3 client-side routes using react-routerLinks to an external site.
+- Use a json-server to create a RESTful API for your backend and make both a GET and a POST request to the json server. - Additionally, you may choose to incorporate data from an external API but it is not required.
+- You should keep your json-server data simple: avoid nested data and associations. You'll learn how to work with more complex data in the next two phases. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Project Setup
+- Run npm install
+- Run npm start. This will start your server on a port e.g http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Core Deliverables
+As a user, I should be able to:
+- Add an expenses
+- Delete an expense
+- Edit the budget
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# budget-planner-react
