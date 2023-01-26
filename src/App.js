@@ -12,7 +12,7 @@ import { AppProvider } from "./context/AppContext";
 function App() {
   return (
     <AppProvider className='app-provider'>
-      <div className="bg-dark text-light">
+      <div className="bg-dark text-light ">
         <div className="row">
           <h3 className="text-info logo">MTD</h3>
         </div>
@@ -26,20 +26,20 @@ function App() {
 				  	</div>
 				  </div>
           {/* Budget  */}
-          <div className="col-sm">
+          <div className="col">
             <Budget/>
           </div>
           {/* Balance */}
-          <div className="col-sm">
+          <div className="col">
             <Remaining/>
           </div>
           {/* Spent So far  */}
-          <div className="col-sm">
+          <div className="col">
             <ExpenseTotal/>
           </div>
         </div>
         {/* Expense list  */}
-        <h3 className="mt-3">Expenses</h3>
+        <h3 className="m-3">Expenses</h3>
         <div className='row mt-2'>
 	      	<div className='col-sm'>
 	      		<ExpenseList />
