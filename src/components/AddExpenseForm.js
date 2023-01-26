@@ -26,35 +26,38 @@ function AddExpenseForm(props) {
 
   return (
     <form onSubmit= {onSubmit}>
-        <div className='row m-1'>
+        <div className='row m-1 d-flex'>
 			<div className='col-sm'>
-				<label htmlFor='name'>Description</label>
+				{/* <label htmlFor='name'>Description</label> */}
 				<input
 					placeholder='Description'
 					required='required'
 					type='text'
-					className='form-control bg-dark text-light w-50'
+					className='form-control bg-dark text-light w-100'
 					id='name'
 					value={name}
 					onChange={(event) => setName(event.target.value)}
 				/>
 			</div>
 			<div className='col-sm'>
-				<label htmlFor='cost'>Cost</label>
+				{/* <label htmlFor='cost'>Cost</label> */}
 				<input
 					placeholder='Amount'
 					required='required'
 					type='number'
-					className='form-control bg-dark text-light w-50'
+					className='form-control bg-dark text-light w-75'
 					id='cost'
 					value={cost}
 					onChange={(event) => setCost(event.target.value)}
 				/>
 			</div>
+			{/* <div className='col-sm m-3'>
+				<button type='submit' className='btn btn-outline-info w-50 add-budget-button'>Add</button>
+			</div> */}
 		</div>
 		<div className='row'>
 			<div className='col-sm'>
-				<button type='submit' className='btn btn-outline-info m-3'>Add</button>
+				<button type='submit' className='btn btn-outline-info w-25 add-budget-button m-3'>Add</button>
 			</div>
 		</div>
     </form>

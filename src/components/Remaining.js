@@ -10,7 +10,7 @@ function Remaining() {
   
   const alertType = totalExpenses > budget? 'alert-danger' : 'alert-success'
   return (
-    <div className= {`alert ${alertType}`}>
+    <div className= {`alert w-75 ${alertType}`}>
       <span>Remaining: Ksh {budget-totalExpenses}</span>
     </div>
   )

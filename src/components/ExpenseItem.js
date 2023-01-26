@@ -15,7 +15,7 @@ const ExpenseItem = (props) => {
       {props.name}
       <div className='justify-content-center align-items-center'>
         <span className=' mr-3'>Ksh{props.cost}</span>
-        {/* <button className='btn btn-outline-info edit-button'>Edit</button> */}
+        <button className='btn btn-outline-info edit-button'>Edit</button>
         <button className='btn btn-outline-info delete-button' onClick={handleDeleteExpense}>Delete</button>
       </div>
 
