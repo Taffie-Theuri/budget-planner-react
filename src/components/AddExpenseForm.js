@@ -33,7 +33,7 @@ function AddExpenseForm(props) {
 					placeholder='Description'
 					required='required'
 					type='text'
-					className='form-control'
+					className='form-control bg-dark text-light w-50'
 					id='name'
 					value={name}
 					onChange={(event) => setName(event.target.value)}
@@ -45,14 +45,14 @@ function AddExpenseForm(props) {
 					placeholder='Amount'
 					required='required'
 					type='number'
-					className='form-control'
+					className='form-control bg-dark text-light w-50'
 					id='cost'
 					value={cost}
 					onChange={(event) => setCost(event.target.value)}
 				/>
 			</div>
 		</div>
-		<div className='row mt-3'>
+		<div className='row'>
 			<div className='col-sm'>
 				<button type='submit' className='btn btn-outline-info m-3'>Add</button>
 			</div>

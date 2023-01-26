@@ -41,3 +41,16 @@
     color: #eaeaea;
     transition: all 0.4s ease-in-out;
 }
+.add-expense {
+    margin-left: 20px;
+}
+.edit-budget{
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 0.5px transparent;
+}
+.edit-budget-button,
+.save-budget {
+    margin: 0 15px;
+    padding: 5px 25px;
+}

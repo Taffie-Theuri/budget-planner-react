@@ -19,7 +19,7 @@ function App() {
         <h1 className="d-flex justify-content-center align-items-center budget-planner"> Budget Planner App</h1>
         <div className="row mt-3">
           {/* Add Expense  */}
-          <h3 className='mt-3'>Add Expense</h3>
+          <h3 className='add-expense'>Add Expense</h3>
 				  <div className='row mt-3'>
 				  	<div className='col-sm'>
 				  		<AddExpenseForm />

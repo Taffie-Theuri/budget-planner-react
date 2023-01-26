@@ -4,7 +4,7 @@ const ViewBudget = (props) => {
 	return (
 		<>
 			<span>Budget: Ksh{props.budget}</span>
-			<button type='button' className='btn btn-primary' onClick={props.handleEditClick}>
+			<button type='button' className='btn btn-outline-info edit-budget-button' onClick={props.handleEditClick}>
 				Edit
 			</button>
 		</>
