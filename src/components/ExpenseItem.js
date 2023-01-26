@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import {TiDelete} from 'react-icons/ti';
 import { AppContext } from '../context/AppContext';
 
 const ExpenseItem = (props) => {
@@ -8,18 +7,15 @@ const ExpenseItem = (props) => {
   const handleDeleteExpense = () => {
     dispatch({
       type: 'DELETE_EXPENSE',
-      payload: props.id
+      payload: props.id,
     })
   }
   return(
     <li className='bg-dark text-light list-group-item d-flex justify-content-between align-center'>
       {props.name}
       <div className='justify-content-center align-items-center'>
-        <span className=' mr-3'>
-          Ksh{props.cost}
-        </span>
-        {/* <TiDelete size='2em'></TiDelete> */}
-        <button className='btn btn-outline-info edit-button'>Edit</button>
+        <span className=' mr-3'>Ksh{props.cost}</span>
+        {/* <button className='btn btn-outline-info edit-button'>Edit</button> */}
         <button className='btn btn-outline-info delete-button' onClick={handleDeleteExpense}>Delete</button>
       </div>
 
