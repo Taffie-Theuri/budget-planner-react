@@ -16,6 +16,10 @@ import { v4 as uuidv4 } from 'uuid';
 			return {
 				...state, budget: action.payload,
 			};
+		case 'SET_EXPENSE':
+			return {
+				...state, expenses: action.payload,
+			};
 		default:
 			return state;
 	}
