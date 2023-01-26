@@ -16,16 +16,17 @@ function App() {
         <div className="row">
           <h3 className="text-info logo">MTD</h3>
         </div>
-        <h1 className="d-flex justify-content-center align-items-center budget-planner"> Budget Planner App</h1>
+        <h1 className="d-flex justify-content-center align-items-center budget-planner m-3"> Budget Planner App</h1>
         <div className="row mt-3">
           {/* Add Expense  */}
-          <h3 className='add-expense'>Add Expense</h3>
+          <h3 className='add-expense m-3'>Add Expense</h3>
 				  <div className='row mt-3'>
 				  	<div className='col-sm'>
 				  		<AddExpenseForm />
 				  	</div>
 				  </div>
           {/* Budget  */}
+          <hr className="m-3"/>
           <div className="col">
             <Budget/>
           </div>
@@ -39,6 +40,7 @@ function App() {
           </div>
         </div>
         {/* Expense list  */}
+        <hr className="m-1"/>
         <h3 className="m-3">Expenses</h3>
         <div className='row mt-2'>
 	      	<div className='col-sm'>
